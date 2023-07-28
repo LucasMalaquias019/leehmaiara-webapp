@@ -1,0 +1,47 @@
+<div class="container-fluid p-0">
+    <!-- <div class="overlay"></div> -->
+    <div class="bg elevation-z2">
+        <div class="max-width elevation-z2"></div>
+    </div>
+
+    <div class="row w-100  d-flex justify-content-center mt-4 mb-3 me-0">
+        <div class="col-8 d-flex justify-content-center pt-3 pb-2">
+            <div  class="col-4 mt-4 card card-photo-me d-flex justify-content-center elevation-z2 w-50">
+                <div class="card-body d-flex  justify-content-center">
+                    <img src="https://dvyvvujm9h0uq.cloudfront.net/com/articles/1515135672-shutterstock_284581649.jpg"
+                        alt="">
+                </div>
+            </div>
+
+            <div class="col-4 card card-info-about elevation-z2 ">
+                <div class="card-body">
+                    <h3 class="header-card text-center mt-3 mb-3">Sobre mim</h3>
+                    <p>Apaixonada por observar como a luz incide nas formas, registrar imagens em fotografias é
+                        parte da
+                        vida. Com experiência em produção e fotografia publicitária, o olhar sensível, a técnica e o
+                        comprometimento com o trabalho garantem um excelente trabalho! Delicie-se com o resultado!
+                    </p>
+                    <div class="button-area d-flex justify-content-center">
+                        <button class="btn btn-saiba-mais">SAIBA MAIS</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row w-100 ensaios elevation-z2 me-0 ms-0">
+        <div class="row w-100 mt-5 pt-2 d-flex">
+            <div class="col-12 tipos-ensaios text-center">
+                <h3 class="title-bloco-ensaio">Ensaios</h3>
+            </div>
+        </div>
+
+        <div  class="row w-100 d-flex justify-content-center pt-3">
+            <div data-aos="zoom-in" data-aos-duration="3000"  [ngStyle]="{'background': 'url(' + ensaio.urlImg + ') no-repeat 0 0', 'background-size': '450px'}" *ngFor="let ensaio of tiposEnsaios" class="col-3 bloco-ensaio ms-5 me-5 mb-5 p-0 ">
+                <div class="overlay-bloc-ensaios d-flex justify-content-center">
+                    <h2>{{ensaio.tipo}}</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

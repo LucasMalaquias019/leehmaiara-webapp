@@ -1,0 +1,32 @@
+.navbar {
+    background-color: rgba(0, 0, 0, 0.734);
+}
+
+.text-navbar {
+    margin-left: 37%;
+}
+
+h3 {
+    font-family: 'photoshoot';
+    color: white;
+}
+
+h2 {
+    font-family: 'amatic';
+    font-size: 22px;
+    color: white;
+}
+
+.active {
+    border-bottom: 2px solid white;
+}
+
+.nav-link {
+    font-family: 'amatic';
+    font-size: 22px;
+    color: white;
+
+    &:hover {
+        border-bottom: 2px solid white;
+    }
+}
