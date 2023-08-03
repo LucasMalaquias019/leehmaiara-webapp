@@ -1,5 +1,10 @@
 .navbar {
     background-color: rgba(0, 0, 0, 0.734);
+    background-color: var(--navbar-scroll);
+    transition: background-color 5ms ease-in;
+    color: var(--navbar-scroll-text);
+    -webkit-box-shadow: var(--navbar-scroll-shadow);
+    box-shadow: var(--navbar-scroll-shadow);
 }
 
 .text-navbar {

@@ -6,7 +6,7 @@
 
     <div class="row w-100  d-flex justify-content-center mt-4 mb-3 me-0">
         <div class="col-8 d-flex justify-content-center pt-3 pb-2">
-            <div  class="col-4 mt-4 card card-photo-me d-flex justify-content-center elevation-z2 w-50">
+            <div class="col-4 mt-4 card card-photo-me d-flex justify-content-center elevation-z2 w-50">
                 <div class="card-body d-flex  justify-content-center">
                     <img src="https://dvyvvujm9h0uq.cloudfront.net/com/articles/1515135672-shutterstock_284581649.jpg"
                         alt="">
@@ -32,12 +32,15 @@
     <div class="row w-100 ensaios elevation-z2 me-0 ms-0">
         <div class="row w-100 mt-5 pt-2 d-flex">
             <div class="col-12 tipos-ensaios text-center">
-                <h3 class="title-bloco-ensaio">Ensaios</h3>
+                <h3 class="title-bloco-ensaio">Ensaios - Estúdio e Externo</h3>
             </div>
         </div>
 
-        <div  class="row w-100 d-flex justify-content-center pt-3">
-            <div data-aos="zoom-in" data-aos-duration="3000"  [ngStyle]="{'background': 'url(' + ensaio.urlImg + ') no-repeat 0 0', 'background-size': '450px'}" *ngFor="let ensaio of tiposEnsaios" class="col-3 bloco-ensaio ms-5 me-5 mb-5 p-0 ">
+        <div class="row w-100 d-flex justify-content-center pt-3">
+            <div data-aos="zoom-in" data-aos-duration="3000"
+                [ngStyle]="{'background': 'url(' + ensaio.urlImg + ') no-repeat 0 0', 'background-size': '450px'}"
+                *ngFor="let ensaio of tiposEnsaios" class="col-3 bloco-ensaio ms-5 me-5 mb-5 p-0 "
+                routerLink="/ensaios">
                 <div class="overlay-bloc-ensaios d-flex justify-content-center">
                     <h2>{{ensaio.tipo}}</h2>
                 </div>

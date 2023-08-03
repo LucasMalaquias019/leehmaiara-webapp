@@ -1,0 +1,83 @@
+{
+    "ensaios": [
+        {
+            "id": 1,
+            "nome": "Gestacional",
+            "tipo": "Estúdio",
+            "albumPhoto": [
+                {
+                    "idImg": 1,
+                    "urlImg": ""
+                },
+                {
+                    "idImg": 2,
+                    "urlImg": ""
+                },
+                {
+                    "idImg": 3,
+                    "urlImg": ""
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "nome": "Gestacional",
+            "tipo": "Externo",
+            "albumPhoto": [
+                {
+                    "idImg": 1,
+                    "urlImg": ""
+                },
+                {
+                    "idImg": 2,
+                    "urlImg": ""
+                },
+                {
+                    "idImg": 3,
+                    "urlImg": ""
+                }
+            ]
+        },
+
+        {
+            "id": 3,
+            "nome": "Aniversário Infantil",
+            "tipo": "Estúdio",
+            "albumPhoto": [
+                {
+                    "idImg": 1,
+                    "urlImg": ""
+                },
+                {
+                    "idImg": 2,
+                    "urlImg": ""
+                },
+                {
+                    "idImg": 3,
+                    "urlImg": ""
+                }
+            ]
+        },
+
+        {
+            "id": 1,
+            "nome": "Aniversário Infantil",
+            "tipo": "Externo",
+            "albumPhoto": [
+                {
+                    "idImg": 1,
+                    "urlImg": ""
+                },
+                {
+                    "idImg": 2,
+                    "urlImg": ""
+                },
+                {
+                    "idImg": 3,
+                    "urlImg": ""
+                }
+            ]
+        }
+    ]
+}
